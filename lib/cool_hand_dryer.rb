@@ -1,5 +1,9 @@
 require "cool_hand_dryer/version"
 
 module CoolHandDryer
-  # Your code goes here...
+  class Dryer
+    def dry
+      `say oooooooooooooooooooooooooooooooooooooooooooooooo ooooooooooooooooooooooooooooooo`
+    end
+  end
 end
